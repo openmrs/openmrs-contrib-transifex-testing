@@ -3,7 +3,9 @@ filters:
     file_format: KEYVALUEJSON
     source_language: en
     source_file: translations/en.json
-    translation_files_expression: translations/<lang>.json
+    translation_files_expression: 'translations/<lang>.json'
+settings:
+  pr_branch_name: automated/transifex_update_<br_unique_id>
 
 
 # [o:openmrs:p:openmrs-test:r:sample-resource]
